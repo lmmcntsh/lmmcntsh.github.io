@@ -3,16 +3,18 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    background-image: linear-gradient(#222222, #341d5c);
     background-size: auto;
     
+}
+.bg{
+    background-image: linear-gradient(#222222, #341d5c);
 }
 
 .header{
     width: 100%;
     height: 80px;
     display: block;
-    background-image: linear-gradient(#222222, #341d5c);
+    background-color: #222222;
 }
 .inner_header{
     width: 1000px;
@@ -71,7 +73,7 @@
 
 
 .contentspace {
-    background-color: #192841;
+    background-color: #232323;
     width: 1000px; height: 800px;
     background-image: none;
 
@@ -79,6 +81,9 @@
     margin-right: auto;
 }
 
+.contentspace h1{
+    color: white;
+}
 .img {
     width: 50%; height: 50%;
     background-image: none;
