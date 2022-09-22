@@ -6,10 +6,8 @@
     background-size: auto;
     
 }
-
 .bg{
     background-image: linear-gradient(#222222, #341d5c);
-
 }
 
 .header{
@@ -18,7 +16,6 @@
     display: block;
     background-color: #222222;
 }
-
 .inner_header{
     width: 1000px;
     height: 100%;
@@ -47,6 +44,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
 .navigation{
     float: right;
     height: 100%;
@@ -72,33 +70,22 @@
     background-image: none;
 }
 
+
+
 .contentspace {
     background-color: #232323;
     width: 1000px; height: 800px;
+    background-image: none;
 
     margin-left: auto;
     margin-right: auto;
 }
 
-img{
-    margin: 1px;
-}
 .contentspace h1{
     color: white;
+}
+.img {
+    width: 50%; height: 50%;
+    background-image: none;
     
-}
-
-.Message{
-    color: white;
-    font-size: 20px;
-}
-.Message img{
-width: 200px; height: 200px;
-border-radius: 8px;
-border: 2px solid white;
-}
-video{
-    width: 500px; height: 400px;
-    margin-left: 250px;
-    margin-top: 30px;
 }
