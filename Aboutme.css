@@ -16,7 +16,7 @@
     width: 100%;
     height: 80px;
     display: block;
-    background-image: linear-gradient(#222222, #341d5c);
+    background-color: #222222;
 }
 
 .inner_header{
@@ -73,7 +73,7 @@
 }
 
 .contentspace {
-    background-color: #192841;
+    background-color: #232323;
     width: 1000px; height: 800px;
 
     margin-left: auto;
@@ -84,6 +84,10 @@
     
 }
 
+.Message{
+    color: white;
+    font-size: 20px;
+}
 video{
     width: 500px; height: 400px;
     padding: 200px;
