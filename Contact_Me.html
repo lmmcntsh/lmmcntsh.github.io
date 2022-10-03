@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <link href="Montserrat.zip">
-        <link rel="stylesheet" href="Contact.css">
+        <link rel="stylesheet" href="style.css">
         <title>Assignment1_McIntosh</title>
 
     </head>
@@ -25,10 +25,34 @@
             </div>
             <div class="bg">
                 <div class="contentspace" >
-                    <h1> Welcome </h1>
-                    <div class="img">
+                    <h1> Contact me!</h1>
+                    <div class="Contact form">
+                        <form action="mailto: email@email.com" ?subject="Contact" method="post" enctype="text/plain" name="form">
+                        <p>
+                            <label for="fname">First Name</label>
+                            <input type="text" name="firstname" size="32" placeholder="First name">
+
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Last name">
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Email Address">
+
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" placeholder="Write me something!" style="height: 200px"></textarea>
+
+                            <input type="submit" value="Submit">
+
+                        </p>
+                        </form>
                     </div>
                 </div>
+                <footer>
+                    <p>Ⓒ 2022 by Liam Mcintosh  <br>
+                    <a href="mailto:liam.mcintosh@ontariotechu.net">liam.mcintosh@ontariotechu.net</a>
+                    </p>
+                
+                </footer>
             </div>
         </div>
     </body>

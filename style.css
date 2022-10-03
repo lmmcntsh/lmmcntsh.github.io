@@ -8,8 +8,14 @@
 }
 .bg{
     background-image: linear-gradient(#222222, #341d5c);
-}
+    height: 1000%;
 
+}
+footer{ /*Makes it so that the footer is at the bottom left of  the page*/
+    vertical-align: bottom;
+    color: white;
+    margin-bottom: 2px;
+}
 .header{
     width: 100%;
     height: 80px;
@@ -17,7 +23,7 @@
     background-color: #222222;
 }
 .inner_header{
-    width: 1000px;
+    width: 100%;
     height: 100%;
     display: block;
     margin: 0 auto;
@@ -74,11 +80,15 @@
 
 .contentspace {
     background-color: #232323;
-    width: 1000px; height: 800px;
+    width: 75%; height: 100%;
     background-image: none;
 
     margin-left: auto;
     margin-right: auto;
+}
+
+img{
+    margin: 1px;
 }
 
 .contentspace h1{
@@ -88,4 +98,35 @@
     width: 50%; height: 50%;
     background-image: none;
     
+}
+
+.Message{
+    color: white;
+    font-size: 20px;
+}
+.Message img{
+    width: 20%; height: 20%;
+    border-radius: 8px;
+    border: 2px solid white;
+    }
+    video{
+        width: 50%; height: 40%;
+        margin-left: 25%;
+        margin-top: 3%;
+    }    
+
+input[type=text], select, textarea{
+width: 100%;
+border: 12px;
+border-radius: 4px;
+box-sizing: border-box; 
+margin-top: 6px; 
+margin-bottom: 16px;
+resize: vertical
+
+}
+
+
+label{
+    color: white;
 }

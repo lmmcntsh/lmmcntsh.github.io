@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        
+    <head> <!-- sets the header content, the responsive, character set, font, and style tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--makes page responsive-->
         <meta charset="UTF-8">
         <link href="Montserrat.zip">
-        <link rel="stylesheet" href="Aboutme.css">
+        <link rel="stylesheet" href="style.css">
         <title>Assignment1_McIntosh</title>
 
     </head>
     <body>
-        <div class="header">
+        <div class="header"> <!--Class header, to split the site-->
 
             <div class="inner_header">
 
-                <div class="NavBarLogo">
-                    <h1>Liam McIntosh</h1>
+                <div class="NavBarLogo"> <!--heading on the page with my name-->
+                    <h1>Liam McIntosh</h1> 
                 </div>
-                <ul class="navigation">
+                <ul class="navigation"> <!--makes the navigation bar at the top of the screen// contains Home, About, Projects and Contact Me tabs-->
                     <a href="index.html"><li>Home</li></a>
                     <a href="ABOUT_ME.html"><li>About</li></a>
                     <a href="Projects.html"><li>Projects</li></a>
                     <a href="Contact_Me.html"><li>Contact Me</li></a>
                 </ul>
             </div>
-            <div class="bg">
+            <div class="bg"><!--this background div tag makes it so we can have a colored background behind our main content space block-->
                 <div class="contentspace" >
-                    <h1> About me!</h1>
+                    <h1> About me!</h1> <!--Header for our page-->
                     
-                        <div class="Message">
-                            <img src="images/maiasblackman.jpg" alt="">
+                        <div class="Message"> <!--the message class is for our picture, message and video-->
+                            <img src="images/Sunflowerpic" alt=""> <!-- imports a picture on the site-->
                             <p> I am a second year Networking and IT student at Ontario Tech Univeristy. </p>
                         </div>
-                        <video height="200px" width="200px" controls poster="images/pexels-nataliya-vaitkevich-5982103.jpg">
+                        <video height="200px" width="200px" controls poster="images/background.jpg"> <!--imports a video with controls and a poster-->
                             <source src="videos/on_record.mp4" type="video/mp4">
-                            <source src="videos/on_record.ogv" type="video/ogg">
+                            <source src="videos/on_record.ogv" type="video/ogg"> <!-- you need the mp4 and the ogg files for it to work well-->
                         </video>
                     
                 </div>
+                <footer> <!--Footer with name, email and copyright-->
+                    <p>Ⓒ 2022 by Liam Mcintosh  <br>
+                    <a href="mailto:liam.mcintosh@ontariotechu.net">liam.mcintosh@ontariotechu.net</a>
+                    </p>
+                
+                </footer>
             </div>
             
         </div>
