@@ -15,6 +15,7 @@ footer{ /*Makes it so that the footer is at the bottom left of  the page and whi
     vertical-align: bottom; 
     color: white; /*Sets the color of the text*/
     margin-bottom: 2px; /*Makes it so that the footer is at the bottom left of  the page and white*/
+    background-color: #341d5c; /*Sets the color of the text*/
 }
 .header{ /*header settings with display method, sizes and color*/
     width: 100%; /*Sets the width of the header*/
