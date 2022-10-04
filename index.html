@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head> <!-- sets the header content, the responsive, character set, font, and style tags -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-        <link href="Montserrat.zip">
-        <link rel="stylesheet" href="style.css">
-        <title>Assignment1_McIntosh</title>
-
-    </head>
-    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- sets the width of the page to the width of the device -->
+        <link rel="stylesheet" href="full.css" type="text/css" media="only screen and (min-width: 960px)"> <!-- sets the stylesheet to the full.css file when using a larger screen -->
+        <link rel="stylesheet" href="tablet.css" type="text.css" media="only screen and (min-width:480px) and (max-width:960px)"> <!-- sets the stylesheet to the tablet.css file when using a tablet -->
+        <link rel="stylesheet" href="phone.css" type="text/css" media="only screen and (max-width:480px)"> <!-- sets the stylesheet to the phone.css file when using a phone -->
+        <meta charset="UTF-8"> <!-- sets the character set to UTF-8 -->
+        <link href="Montserrat.zip"> <!-- sets the font to Montserrat -->
+        <link rel="stylesheet" href="full.css"> <!-- sets the style to full.css -->
+        <title>Assignment1_McIntosh</title> <!-- sets the title of the page -->
+    </head> <!-- end of the head tag -->
+    <body> 
         <div class="header"> <!--Class header, to split the site-->
 
-            <div class="inner_header">
+            <div class="inner_header"> <!--Class inner_header, to split the site-->
 
                 <div class="NavBarLogo"> <!--heading on the page with my name-->
                     <h1>Liam McIntosh</h1>
                 </div>
                 <ul class="navigation"> <!--makes the navigation bar at the top of the screen// contains Home, About, Projects and Contact Me tabs-->
-                    <a href="index.html"><li>Home</li></a>
-                    <a href="ABOUT_ME.html"><li>About</li></a>
-                    <a href="Projects.html"><li>Projects</li></a>
-                    <a href="Contact_Me.html"><li>Contact Me</li></a>
-                </ul>
+                    <a href="index.html"><li>Home</li></a> <!--links to the home page-->
+                    <a href="ABOUT_ME.html"><li>About</li></a> <!--links to the about me page-->
+                    <a href="Projects.html"><li>Projects</li></a> <!--links to the projects page-->
+                    <a href="Contact_Me.html"><li>Contact Me</li></a> <!--links to the contact me page-->
+                </ul> <!--end of navbar-->
             </div>
             <div class="bg"> <!--this background div tag makes it so we can have a colored background behind our main content space block-->
-                <div class="contentspace" >
+                <div class="contentspace" > <!--this is the main content space block-->
                     <h1> Welcome </h1> <!--Header for our page-->
-                    <div class="img">
+                    <div class="img"> <!--this is the image that will be displayed on the page-->
                     </div>
                 </div>
                 <footer> <!--Footer with name, email and copyright-->
-                    <p>Ⓒ 2022 by Liam Mcintosh  <br>
-                    <a href="mailto:liam.mcintosh@ontariotechu.net">liam.mcintosh@ontariotechu.net</a>
+                    <p>Ⓒ 2022 by Liam Mcintosh  <br> </p>
+                    <a href="mailto:liam.mcintosh@ontariotechu.net">liam.mcintosh@ontariotechu.net</a> 
                     </p>
                 
                 </footer>
