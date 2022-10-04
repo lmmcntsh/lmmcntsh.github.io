@@ -76,7 +76,7 @@ footer{ /*Makes it so that the footer is at the bottom left of  the page and whi
 }
 
 .projectslist p{ /*In the projects page, formats the entries into a list*/
-    font-size: 125%;
+    font-size: 20px;
     color: white;
     margin-top: 9%;
 }
