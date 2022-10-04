@@ -76,7 +76,11 @@ footer{ /*Makes it so that the footer is at the bottom left of  the page*/
     background-image: none;
 }
 
-
+.projectslist p{
+    font-size: 20px;
+    color: white;
+    margin-top: 9%;
+}
 
 .contentspace {
     background-color: #232323;
